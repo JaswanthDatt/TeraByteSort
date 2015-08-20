@@ -49,6 +49,7 @@ import org.apache.hadoop.util.ToolRunner;
  * If there is any output, something is wrong and the output of the reduce
  * will have the problem report.
  */
+ //teravalidate
 public class TeraValidate extends Configured implements Tool {
   private static final Text error = new Text("error");
 
